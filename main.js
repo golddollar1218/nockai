@@ -710,9 +710,9 @@
     hero.insertBefore(media, glow.nextSibling);
   }
 
-  // Hugging Face and X links appear only when configured.
+  // Hugging Face, X, and Telegram links appear only when configured.
   function initLinks() {
-    [["huggingface", config.huggingFaceUrl], ["x", config.xUrl]].forEach(function (pair) {
+    [["huggingface", config.huggingFaceUrl], ["x", config.xUrl], ["telegram", config.telegramUrl]].forEach(function (pair) {
       $all('[data-link="' + pair[0] + '"]').forEach(function (link) {
         if (!pair[1]) return;
         link.href = pair[1];

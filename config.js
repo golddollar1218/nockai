@@ -1,7 +1,8 @@
 // Public site settings. Fill these in before launch. Leave a value empty to hide or disable that feature.
 window.NOCKAI_CONFIG = {
   huggingFaceUrl: "https://huggingface.co/Nock-AI/nock-coder-1.5b-GGUF",
-  xUrl: "https://x.com/useNockAI",
+  xUrl: "https://x.com/nockai_x",
+  telegramUrl: "https://t.me/nockai_tg",
 
   // Token: the hero shows "CA Soon" until the address is filled in, then the address with a copy button.
   tokenTicker: "$NOCKAI",
