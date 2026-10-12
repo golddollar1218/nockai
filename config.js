@@ -5,7 +5,7 @@ window.NOCKAI_CONFIG = {
 
   // Token: the hero shows "CA Soon" until the address is filled in, then the address with a copy button.
   tokenTicker: "$NOCKAI",
-  tokenAddress: "0xb0f444a069d9264017610e0674ebf7e1d6e19cbb",
+  tokenAddress: "0xF78E30618e77A5671ee90bA4f43BaF19C2194987",
 
   // Kaggle: the "Nock Agent" row appears in the models list once this link is filled in (after a real submission).
   kaggleEntryUrl: "",
